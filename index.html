@@ -45,60 +45,18 @@
     font-size: 70px;
     font-weight: bold;
   }
-  .top-icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    margin-left: auto;
-    }
-
-  .top-link {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: black;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    }
-
-  .link {
-    content: "|";
-    color: white;
-    margin: 10px;
-    font-weight: 500;
-    }
-
-  .icons {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    margin-left: 10px;
-    }
-
-  .icon {
-    height: 50px;
-    width: 50px;
-    display: inline-flex;
-    justify-content: center;
-    border-radius: 5px;
-    cursor: pointer;
-    background: transparent;
-    }
+  .navigator {
+    text-align: center;
+  }
 </style>
 </head>
 <body>
-  <div class="top-icons" aria-hidden="false">
-            <nav class="top-link" aria-label="top navigation">
-                <a href="#">Home</a>
-                <span class="sep"></span>
-                <a href="#">About</a>
-                <span class="sep"></span>
-                <a href="#">Services</a>
-                <span class="sep"></span>
-                <a href="#">Contact</a>
-            </nav>
-  </div>
+   <nav class="navigator">
+    <a href="index.html">Home</a>
+    <a class="active" href="page2.html">About</a>
+    <a href="contact.html">Contact</a>
+      </nav>
+
   <br>
     
   <div class="header">
@@ -182,6 +140,7 @@
 
 </body>
 </html>
+
 
 
 
